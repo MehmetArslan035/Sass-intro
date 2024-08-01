@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+/* ---------------------------------- */
+/*        Variable Declaration        */
+/* ---------------------------------- */
 body {
   background-color: #bb66ff;
   font-family: Arial, Helvetica, sans-serif;
@@ -45,13 +48,27 @@ header ul li a:hover {
 
 /* ------------- Banner ------------- */
 .banner {
-  background-color: #0056B3;
+  background-color: #0056b3;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
   color: white;
   line-height: 1.5;
+}
+.banner aside button {
+  background-color: #28a745;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  color: #f8f9fa;
+  font-weight: bold;
+}
+.banner aside button:hover {
+  background-color: #1e7e34;
+  cursor: pointer;
+  transform: scale(0.97);
 }
 .banner img {
   width: 30%;
