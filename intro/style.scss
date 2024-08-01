@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-$bg-color:#bb66ff;
+$bg-color: #bb66ff;
 $font-family: Arial, Helvetica, sans-serif;
 $font-size: 1.2rem;
 $font-color: #333;
-$nav-bg-color:#007bff;
+$nav-bg-color: #007bff;
 $my-border: solid #ddd;
 
 body {
@@ -18,16 +18,26 @@ body {
   color: $font-color;
 }
 
-
 header {
-    background-color: $nav-bg-color;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem ;
+  background-color: $nav-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 
-    img{
-        width: 80px;
-        border: $my-border;
+  img {
+    width: 80px;
+    border: $my-border;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      padding: 0.5rem;
     }
+  }
 }
