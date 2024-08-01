@@ -76,4 +76,51 @@ header ul li a:hover {
   min-width: 250px;
 }
 
+/* -------------- CARDS ------------- */
+.cards {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.cards .card1 {
+  background-color: blue;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card2 {
+  background-color: red;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card3 {
+  background-color: purple;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card4 {
+  background-color: olive;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */

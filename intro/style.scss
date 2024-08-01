@@ -96,3 +96,35 @@ header {
     min-width: 250px;
   }
 }
+
+
+/* -------------- CARDS ------------- */
+@mixin myBox($backColor,$color) {
+    background-color: $backColor;
+        width: 25%;
+        height: 15rem;
+        border-radius: 1rem;
+        color: $color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    .card1{
+      @include myBox(blue,white)
+    }
+    .card2{
+        @include myBox(red,yellow )
+
+    }
+    .card3{
+       @include myBox(purple,orange )
+    }
+    .card4{
+       @include myBox(olive,aqua )
+    }
+}
