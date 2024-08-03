@@ -1,0 +1,12 @@
+@import url(abstracts/_mixins.scss);
+@import url(abstracts/_variable.scss);
+@import url(base/reset.scss);
+@import url(components/_footer.scss);
+@import url(components/_responsive.scss);
+@import url(components/_nav.scss);
+@import url(pages/_about.scss);
+@import url(pages/_contact.scss);
+@import url(pages/_home.scss);
+@import url(pages/_projects.scss);
+
+/*# sourceMappingURL=main.css.map */
